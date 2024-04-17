@@ -1,6 +1,7 @@
-import { Empleado } from '../src/interfaces/interfaceEmpleado';
-import { Departamento } from '../src/enums/enumDepartamento';
-import { calcularSalarioNeto } from '../src/functions/functionSalary'
+
+import { Departamento } from './enums/enumDepartamento';
+import { calcularSalarioNeto } from './functions/functionSalary';
+import { Empleado } from './interfaces/interfaceEmpleado';
 
 
 const empleado: Empleado={

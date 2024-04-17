@@ -1,18 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.calcularSalarioNeto = void 0;
-var enumDepartamento_1 = require("../enums/enumDepartamento");
+const enumDepartamento_1 = require("../enums/enumDepartamento");
 function calcularSalarioNeto(Empleado) {
-    var bono;
+    let bono;
     switch (Empleado.departamento) {
         case enumDepartamento_1.Departamento.IT:
-            bono = 0.08;
+            bono = 0.1;
             break;
         case enumDepartamento_1.Departamento.HR:
             bono = 0.12;
             break;
         case enumDepartamento_1.Departamento.SALES:
-            bono = 0.1;
+            bono = 0.08;
             break;
         case enumDepartamento_1.Departamento.FINANCE:
             bono = 0.09;
